@@ -12,3 +12,22 @@
 
 	git --version
 
+
+#### How to install python 3.7 in ubuntu 18.04 ####
+
+01. Update the package and install prerequisites
+
+	sudo apt update
+	sudo apt install software-properties-common
+
+02. Next, add the deadsnakes PPA to your sources list
+
+	sudo add-apt-repository ppa:deadsnakes/ppa
+
+03. Once the repository is enabled, install Python 3.7 with
+
+	sudo apt install python3.7
+
+04. Check the python version
+	
+	python3.7 --version	

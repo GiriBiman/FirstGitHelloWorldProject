@@ -52,3 +52,22 @@
 	sudo apt update
 	sudo apt install sublime-text
 
+#### How to install Nvidia graphic card ###
+
+01. Update the package list
+
+	sudo apt update
+
+02. check the ubuntu driver list
+
+	ubuntu-drivers devices
+
+03. Do installation.
+
+	sudo ubuntu-drivers autoinstall
+
+04. Reboot and check by typing
+	
+	nvidia-settings
+
+ 

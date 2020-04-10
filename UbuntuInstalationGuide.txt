@@ -1,0 +1,14 @@
+##### How to install git in ubuntu 18.04 #####
+
+01. start bu updating the package index 
+	
+	sudo apt update
+
+02. Command to install git
+	
+	sudo apt install git
+
+03. Check version
+
+	git --version
+

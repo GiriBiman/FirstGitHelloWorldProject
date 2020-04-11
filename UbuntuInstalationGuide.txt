@@ -89,6 +89,8 @@
 
 	sudo bash <Anaconda downloaded file name>
 
+	then reboot to set the instaltion	
+
 5. set the environment path of anaconda
 
 	export PATH="/home/<user>/anaconda3/bin:$PATH"

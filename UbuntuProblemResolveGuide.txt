@@ -4,3 +4,6 @@ Follow this link you will get details idea how to reduce the log using various m
 
 --->	https://askubuntu.com/questions/1012912/systemd-logs-journalctl-are-too-large-and-slow
 
+#### How to prevent conda to activate by default
+
+	conda config --set auto_activate_base false

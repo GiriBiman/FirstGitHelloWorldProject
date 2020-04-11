@@ -71,3 +71,28 @@
 	nvidia-settings
 
  
+#### How to install Anaconda3 in ubuntu 18.04 ####
+
+1. Goto this url
+
+	https://www.anaconda.com/distribution/
+
+2. Get the specified link which can directly donwload the setup file and use terminal to donwload( bit faster compare to browser download manager)
+
+	wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+
+3. After download verify the integrity of the downloaded file
+
+	sha256sum <Anaconda downloaded file name>
+
+4. install .sh file
+
+	sudo bash <Anaconda downloaded file name>
+
+5. set the environment path of anaconda
+
+	export PATH="/home/<user>/anaconda3/bin:$PATH"
+
+6. validate the instalation
+
+	conda --version

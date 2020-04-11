@@ -1,0 +1,6 @@
+#### How to reduce jounnal log in ubuntu ####
+
+Follow this link you will get details idea how to reduce the log using various methods and explanation
+
+--->	https://askubuntu.com/questions/1012912/systemd-logs-journalctl-are-too-large-and-slow
+

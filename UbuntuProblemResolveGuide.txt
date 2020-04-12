@@ -7,3 +7,6 @@ Follow this link you will get details idea how to reduce the log using various m
 #### How to prevent conda to activate by default
 
 	conda config --set auto_activate_base false
+#### How to clear log in var/log folder ####
+
+	find /var/log -type f -delete

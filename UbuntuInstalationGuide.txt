@@ -98,3 +98,11 @@
 6. validate the instalation
 
 	conda --version
+
+
+#### How to install chromium - browser ####
+
+	CLI Way :    sudo apt install chromium-browser     
+	GUI Way : Open browser and type "apt:chromium-browser"
+
+
